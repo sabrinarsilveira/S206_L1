@@ -1,0 +1,9 @@
+Para todos os testes desenvolvidos anteriormente, responda e justifique. Os testes desenvolvidos são manuais ou automatizados?
+Os testes de API com Postman são manuais, pois as requisições e verificações de resposta são realizadas de forma interativa, onde o usuário configura cada teste manualmente no Postman, executa a requisição e verifica a resposta na interface do Postman. Ou seja, não há automação no processo.
+
+Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
+Os testes não são Fim-a-Fim, pois focaram em enviar requisições diretamente para a API e verificar as respostas, sem interação com a interface do usuário (frontend) ou integração completa do sistema.
+
+O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+Primeiramente é necessário automatizar os testes, depois organizar uma suíte de regressão, configurar CI/CD (Integração Contínua / Entrega Contínua), atualizar os testes conforme necessário, verificar relatórios de execução e testar em ambiente isolado.
+
